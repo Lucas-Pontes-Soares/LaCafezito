@@ -1,0 +1,115 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+#navegador {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #ad8352;
+    height: 60px;
+}
+
+#imgNavegador {
+    display: block;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    padding-top: 2%;
+}
+
+#cancelar {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    margin-top: 2px;
+    margin-left: 5%;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-family: 'Inter', sans-serif;
+    background-color: rgb(173, 173, 173);
+    height: 63%;
+    width: 38%;
+    padding: 8px;
+    border-radius: 20px;
+    padding-left: 12px;
+    text-align: center;
+    padding-top: 8px;
+}
+
+#etapa{
+    background-color: #ad8352;
+    margin-left: 35%;
+    margin-right: 35%;
+    height: 40px;
+    border-top: none;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    color: white;
+}
+
+#background {
+    background-image: url('../imagens/backgroundMontar.png');
+    background-size: 100% 100%;
+    display: block;
+    height:auto;
+    width:auto;
+    background-repeat: no-repeat;
+    min-width: 100vh;
+    min-height: 100vh;
+}
+
+#background img {
+    width: auto;
+    height: auto;
+}
+
+h2 {
+    padding-top: 1%;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+
+#campo{
+    padding-bottom: 2%;
+}
+
+.msg-erro{
+    color: black;
+    width: 400px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: rgba(250, 128, 114, .3);
+    border: 1px solid rgb(165, 42, 42);
+    text-align: center;
+
+}
+
+form {
+    padding: 25px;
+    background-color: white;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 6em;
+    width: 600px;
+    border: 1px solid black;
+    border-radius: 40px;
+    height:auto;
+    overflow:hidden;
+    min-height: 300px;
+}
+
+.btnProximo {
+    background-color: #E4C397;
+    color: black;
+    font-size: 20px;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px black;
+    padding: 15px;
+    padding-left: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Inter', sans-serif;
+}

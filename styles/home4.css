@@ -1,0 +1,148 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+#superior {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    background-color: #ad8352;
+    height: 90px;
+}
+
+.fundo {
+    background-color: rgb(243, 233, 199);
+    min-height: 100vh;
+}
+
+.navegador {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 15%;
+    font-size: 25px;
+    font-weight: 900;
+    font-family: 'Inter', sans-serif;
+}
+
+#selecionado {
+    color: rgb(221, 170, 76);
+}
+
+.navegador:hover{
+    color: rgb(240, 204, 150);
+}
+
+#botaoLogo {
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    margin-top: 2px;
+    margin-left: 5%;
+    width: 200px;
+    height: 70px;
+}
+
+#botaoHome {
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    margin-top: 2px;
+    margin-left: 25%;
+}
+
+#botaoContato {
+    display: grid;
+    grid-column-start: 3;
+    grid-column-end: 3;
+    margin-top: 2px;
+    margin-left: 25%;
+}
+
+#botaoCafe {
+    display: grid;
+    grid-column-start: 4;
+    grid-column-end: 4;
+    margin-top: 2px;
+    margin-left: 25%;
+}
+
+#botaoCarrinho {
+    display: grid;
+    grid-column-start: 5;
+    grid-column-end: 5;
+    margin-left: 25%;
+}
+
+#botaoPerfil {
+    display: grid;
+    grid-column-start: 6;
+    grid-column-end: 6;
+    margin-left: 25%;
+}
+
+#imagemSuperior{
+    margin-top: 10%;
+    margin-left: 25%;
+    background-color: rgb(243, 233, 199);
+    border-radius: 50px;
+}
+
+#famosos{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    margin-top: 2%;
+}
+
+#opcoes{
+    margin-top: 2%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#opcao1{
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    margin-top: 10%;
+    justify-self: center;
+    border: 5px solid white;
+}
+
+#opcao2{
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    justify-self: center;
+    border: 5px solid white;
+}
+
+#opcao3{
+    display: grid;
+    grid-column-start: 3;
+    grid-column-end: 3;
+    margin-top: 10%;
+    justify-self: center;
+    border: 5px solid white;
+}
+
+#campoPedidos {
+    margin-top: 3%;
+    background-color: #FFFFFF;
+    border-radius: 75px;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    min-height: 300px;
+}
+

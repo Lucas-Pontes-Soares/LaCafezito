@@ -1,0 +1,194 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+#superior {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    background-color: #ad8352;
+    height: 90px;
+}
+
+.fundo {
+    background-color: rgb(243, 233, 199);
+    display: block;
+    min-height: 100vh;
+}
+
+.navegador {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 15%;
+    font-size: 25px;
+    font-weight: 900;
+    font-family: 'Inter', sans-serif;
+}
+
+#selecionado {
+    color: rgb(221, 170, 76);
+}
+
+.navegador:hover{
+    color: rgb(240, 204, 150);
+}
+
+#botaoLogo {
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    margin-top: 2px;
+    margin-left: 5%;
+    width: 200px;
+    height: 70px;
+}
+
+#botaoHome {
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    margin-top: 2px;
+    margin-left: 25%;
+}
+
+#botaoContato {
+    display: grid;
+    grid-column-start: 3;
+    grid-column-end: 3;
+    margin-top: 2px;
+    margin-left: 25%;
+}
+
+#botaoCafe {
+    display: grid;
+    grid-column-start: 4;
+    grid-column-end: 4;
+    margin-top: 2px;
+    margin-left: 25%;
+}
+
+#botaoCarrinho {
+    display: grid;
+    grid-column-start: 5;
+    grid-column-end: 5;
+    margin-left: 25%;
+}
+
+#botaoPerfil {
+    display: grid;
+    grid-column-start: 6;
+    grid-column-end: 6;
+    margin-left: 25%;
+}
+
+#imagemSuperior{
+    margin-top: 10%;
+    margin-left: 25%;
+    background-color: rgb(243, 233, 199);
+    border-radius: 50px;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(85,132,172);
+    font-size: 30px;
+    margin-top: 2%;
+}
+
+.foto {
+    border-radius: 50%;
+}
+
+.campo{
+    padding: 20px;
+    background-color: white;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 6em;
+    width: 500px;
+    border-radius: 40px;
+    height:auto;
+    overflow:hidden;
+    min-height: 400px;
+}
+
+.foto{
+    float: left;
+}
+
+.atualizarImagem{
+    margin-left: 40%;
+    margin-top: 5%;
+}
+
+#atualizarDados{
+    margin-left: 40%;
+}
+
+#usuario {
+    float: left;
+}
+
+#sair {
+    float: left;
+}
+
+#excluir {
+    margin-left: 40%;
+}
+
+#btnsair{
+    background-color: rgb(228, 96, 94);
+    width: 140px;
+    height: 40px;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    box-shadow: 5px 5px 5px black;
+}
+
+#btnexcluir {
+    background-color: rgb(217,18,1);
+    width: 140px;
+    height: 40px;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    box-shadow: 5px 5px 5px black;
+}
+
+#btnsair:hover{
+    cursor: pointer;
+}
+
+#btnexcluir:hover{
+    cursor: pointer;
+}
+
+
+#enviar {
+    background-color: #E4C397;
+    border-radius: 50px;
+    padding: 10px;
+    border: none;
+}
+
+.inptAtualizar {
+    background-color: #C9C3BB;
+    border-radius: 50px;
+    border: none;
+    padding: 10px;
+}
+
+#btnAtualizar {
+    background-color: #E4C397;
+    border-radius: 50px;
+    padding: 10px;
+    border: none;
+}
